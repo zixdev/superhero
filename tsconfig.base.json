@@ -15,6 +15,21 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@superhero/blockchain-adapter/blockchains/aeternity": [
+        "libs/blockchain-adapter/blockchains/aeternity/src/index.ts"
+      ],
+      "@superhero/blockchain-adapter/blockchains/bitcoin": [
+        "libs/blockchain-adapter/blockchains/bitcoin/src/index.ts"
+      ],
+      "@superhero/blockchain-adapter/blockchains/ethereum": [
+        "libs/blockchain-adapter/blockchains/ethereum/src/index.ts"
+      ],
+      "@superhero/blockchain-adapter/core/base": [
+        "libs/blockchain-adapter/core/base/src/index.ts"
+      ],
+      "@superhero/blockchain-adapter/core/react": [
+        "libs/blockchain-adapter/core/react/src/index.ts"
+      ],
       "@superhero/components": ["libs/components/src/index.ts"],
       "@superhero/features": ["libs/features/src/index.ts"],
       "@superhero/wallet-adapter/core/base": [
