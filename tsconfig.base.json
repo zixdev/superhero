@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@superhero/components": ["libs/components/src/index.ts"],
       "@superhero/features": ["libs/features/src/index.ts"]
     }
   },
