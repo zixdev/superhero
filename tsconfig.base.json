@@ -16,7 +16,19 @@
     "baseUrl": ".",
     "paths": {
       "@superhero/components": ["libs/components/src/index.ts"],
-      "@superhero/features": ["libs/features/src/index.ts"]
+      "@superhero/features": ["libs/features/src/index.ts"],
+      "@superhero/wallet-adapter/core/base": [
+        "libs/wallet-adapter/core/base/src/index.ts"
+      ],
+      "@superhero/wallet-adapter/core/react": [
+        "libs/wallet-adapter/core/react/src/index.ts"
+      ],
+      "@superhero/wallet-adapter/wallets/trust": [
+        "libs/wallet-adapter/wallets/trust/src/index.ts"
+      ],
+      "@superhero/wallet-adapter/wallets/wallet-connect": [
+        "libs/wallet-adapter/wallets/wallet-connect/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
